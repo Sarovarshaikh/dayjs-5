@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card_main{
+        display: flex;
+        }
+        .card_1{
+            width: 150px;
+            height: 150px;
+            border: 2px solid red;
+            margin: 10px;
+            /* flex-direction: row; */
+        }
+    </style>
+</head>
+<body>
+    <h1 id="text">headin</h1>
+    <h1>headin</h1>
+    <button onclick="textChange()">Button</button>
+    <br>
+    <br>
+    <!-- <div class="clock">
+        <span id="hr">00 HH :</span>
+        <span id="min">00 MM :</span>
+        <span id="sec">00 SS </span>
+    </div> -->
+    <div id = "clock" onload="currentTime()"></div>
+    <h2 id="hello">Hello Word</h2>
+    <button onclick="hideText()">HideText</button>
+    <button onclick="showText()">ShowText</button>
+
+    <!-- <div class="card_main">
+        <div class="card_1"></div>
+        <div class="card_1"></div>
+        <div class="card_1"></div>
+    </div>
+    <button onclick="changeFlex()">Button</button> -->
+    <script src="index.js"></script>
+</body>
+</html>
